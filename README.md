@@ -1,2 +1,2 @@
-# tyleransom.github.io
-Repository for Tyler Ransom's academic research website.
+# xin_cv.github.io
+Repository for xin's academic research website.
