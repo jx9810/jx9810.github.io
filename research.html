@@ -227,26 +227,7 @@
       a switching topology under an average dwell-time condition. A numerical simulation is conducted to show the effectiveness 
       of the proposed control strategy.</p></div><br>
 
-      <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" 
-        href="https://www.sciencedirect.com/science/article/pii/S000510982030443X">
-        Event-triggered attitude consensus with absolute and relative attitude measurements</a> <br> 
-        with <a href="http://www.ytangecust.com/">Yang Tang</a>, 
-        <a href="https://www.uvic.ca/research/labs/acipl/groupmembers/administration/profiles/shiyang.php">Yang Shi</a>,
-        and Xiaotai Wu<br>
-        <i>Automatica</i>, 2020, 122: 109245.  <br><button class="accordion"> 
-        Abstract
-      </button>
-      <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>
-        In this paper, we consider the event-triggered attitude consensus of multiple rigid-body systems. 
-        Two event-triggered attitude consensus protocols are designed under the absolute attitude and relative attitude measurement, respectively. 
-        For the first case, the gnomonic projection is utilized to project the attitude to the Euclidean plane almost globally. 
-        Then, a distributed attitude consensus protocol based on the projections is proposed under the event-triggered mechanism. 
-        By using the proposed protocol and event-triggered condition (ETC), the almost global attitude consensus is achieved on a positively invariant set. 
-        Next, in order to remove the requirement of the absolute attitude information, we propose an event-triggered attitude protocol with relative 
-        attitude measurements. The Riemannian gradient descent approach is utilized to design the attitude consensus protocol on a geodesically 
-        convex set of attitude configuration space. Moreover, to overcome the continuous monitoring in the event-detection, a self-triggered strategy 
-        is presented based on the event-triggered protocol only with the relative attitude measurement. 
-        Finally, simulation studies are conducted to verify the effectiveness of the proposed protocols.</p></div><br>
+      
 
         <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" 
           href="https://ieeexplore.ieee.org/document/8643985/">
@@ -267,6 +248,70 @@
           local information of each agent, which avoids the continuous communication in the event detection and excludes the Zeno behavior. 
           Finally, the proposed methods are applied to the practical flight platform for quadrotors. 
           The experiment using three quadrotors in the outdoor environment is demonstrated to test the effectiveness of the formation protocol.</p></div><br>
+
+          <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" 
+            href="https://ieeexplore.ieee.org/document/9789266/">
+            Event-Triggered Optimal Attitude Consensus of Multiple Rigid Body Networks With Unknown Dynamics</a> <br> 
+            with Shuai Mao, 
+            <a href="http://csit.manu.edu.mk/ljupco-kocarev/"></a>Ljupco Kocarev</a>,
+            Chen Liang, Saiwei Wang, 
+            and <a href="http://www.ytangecust.com/">Yang Tang</a><br> 
+            <i>IEEE Transactions on Network Science and Engineering</i>, 2022, 9 (5): 3701&ndash;3714.  <br><button class="accordion"> 
+            Abstract
+          </button>
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>
+            In this paper, an event-triggered Reinforcement Learning (RL) method is proposed for the optimal attitude consensus of multiple 
+            rigid body networks with unknown dynamics. Firstly, the consensus error is constructed through the attitude dynamics. 
+            According to the Bellman optimality principle, the implicit form of the optimal controller and the corresponding Hamilton-Jacobi-Bellman (HJB) 
+            equations are obtained. Because of the augmented system, the optimal controller can be obtained directly without relying on 
+            the system dynamics. Secondly, the self-triggered mechanism is applied to reduce the computing and communication burden when 
+            updating the controller. In order to address the problem that the HJB equations are difficult to solve analytically, 
+            an RL method which only requires measurement data at the event-triggered instants is proposed. For each agent, only one neural 
+            network is designed to approximate the optimal value function. Each neural network is updated only at the event-triggered instants. M
+            eanwhile, the Uniformly Ultimately Bounded (UUB) of the closed-loop system is obtained, and Zeno behavior is also avoided. 
+            Finally, the simulation results on a multiple rigid body network demonstrate the validity of the proposed method.</p></div><br>
+
+            <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" 
+              href="https://ieeexplore.ieee.org/document/9252142/">
+              Model-Free Event-Triggered Optimal Consensus Control of Multiple Euler-Lagrange Systems via Reinforcement Learning</a> <br> 
+              with Saiwei Wang, Shuai Mao, Athanasios V. Vasilakos,
+              and <a href="http://www.ytangecust.com/">Yang Tang</a><br> 
+              <i>IEEE Transactions on Network Science and Engineering</i>, 2021, 8 (1): 246&ndash;258.  <br><button class="accordion"> 
+              Abstract
+            </button>
+            <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>
+              This paper develops a model-free approach to solve the event-triggered optimal consensus of multiple Euler-Lagrange systems (MELSs) 
+              via reinforcement learning (RL). Firstly, an augmented system is constructed by defining a pre-compensator to circumvent the dependence 
+              on system dynamics. Secondly, the Hamilton-Jacobi-Bellman (HJB) equations are applied to the deduction of the model-free event-triggered 
+              optimal controller. Thirdly, we present a policy iteration (PI) algorithm derived from RL, which converges to the optimal policy. 
+              Then, the value function of each agent is represented through a neural network to realize the PI algorithm. Moreover, the gradient 
+              descent method is used to update the neural network only at a series of discrete event-triggered instants. The specific form of the 
+              event-triggered condition is then proposed, and it is guaranteed that the closed-loop augmented system under the event-triggered 
+              mechanism is uniformly ultimately bounded (UUB). Meanwhile, the Zeno behavior is also eliminated. 
+              Finally, the validity of this approach is verified by a simulation example.</p></div><br>
+              
+
+            <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" 
+              href="https://www.sciencedirect.com/science/article/pii/S000510982030443X">
+              Event-triggered attitude consensus with absolute and relative attitude measurements</a> <br> 
+              with <a href="http://www.ytangecust.com/">Yang Tang</a>, 
+              <a href="https://www.uvic.ca/research/labs/acipl/groupmembers/administration/profiles/shiyang.php">Yang Shi</a>,
+              and Xiaotai Wu<br>
+              <i>Automatica</i>, 2020, 122: 109245.  <br><button class="accordion"> 
+              Abstract
+            </button>
+            <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>
+              In this paper, we consider the event-triggered attitude consensus of multiple rigid-body systems. 
+              Two event-triggered attitude consensus protocols are designed under the absolute attitude and relative attitude measurement, respectively. 
+              For the first case, the gnomonic projection is utilized to project the attitude to the Euclidean plane almost globally. 
+              Then, a distributed attitude consensus protocol based on the projections is proposed under the event-triggered mechanism. 
+              By using the proposed protocol and event-triggered condition (ETC), the almost global attitude consensus is achieved on a positively invariant set. 
+              Next, in order to remove the requirement of the absolute attitude information, we propose an event-triggered attitude protocol with relative 
+              attitude measurements. The Riemannian gradient descent approach is utilized to design the attitude consensus protocol on a geodesically 
+              convex set of attitude configuration space. Moreover, to overcome the continuous monitoring in the event-detection, a self-triggered strategy 
+              is presented based on the event-triggered protocol only with the relative attitude measurement. 
+              Finally, simulation studies are conducted to verify the effectiveness of the proposed protocols.</p></div><br>
+
     
           <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" 
             href="https://ieeexplore.ieee.org/document/8643985/">
@@ -289,24 +334,9 @@
             is constructed to verify our criteria. At last, we give a numerical example for 2-DOF prototype manipulators to 
             verify the validity of the theoretical results.</p></div><br>
 
-            <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" 
-              href="https://ieeexplore.ieee.org/document/9252142/">
-              Model-Free Event-Triggered Optimal Consensus Control of Multiple Euler-Lagrange Systems via Reinforcement Learning</a> <br> 
-              with Saiwei Wang, Shuai Mao, Athanasios V. Vasilakos
-              and <a href="http://www.ytangecust.com/">Yang Tang</a>, 
-              <i>IEEE Transactions on Network Science and Engineering</i>, 2021, 8 (1): 246&ndash;258.  <br><button class="accordion"> 
-              Abstract
-            </button>
-            <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>
-              This paper develops a model-free approach to solve the event-triggered optimal consensus of multiple Euler-Lagrange systems (MELSs) 
-              via reinforcement learning (RL). Firstly, an augmented system is constructed by defining a pre-compensator to circumvent the dependence 
-              on system dynamics. Secondly, the Hamilton-Jacobi-Bellman (HJB) equations are applied to the deduction of the model-free event-triggered 
-              optimal controller. Thirdly, we present a policy iteration (PI) algorithm derived from RL, which converges to the optimal policy. 
-              Then, the value function of each agent is represented through a neural network to realize the PI algorithm. Moreover, the gradient 
-              descent method is used to update the neural network only at a series of discrete event-triggered instants. The specific form of the 
-              event-triggered condition is then proposed, and it is guaranteed that the closed-loop augmented system under the event-triggered 
-              mechanism is uniformly ultimately bounded (UUB). Meanwhile, the Zeno behavior is also eliminated. 
-              Finally, the validity of this approach is verified by a simulation example.</p></div><br>
+          
+
+             
 
           <hr>
     <h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link">
